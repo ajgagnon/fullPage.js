@@ -1078,7 +1078,7 @@
 
 				//if the site is not just resizing and readjusting the slides
 				if(!localIsResizing && xMovement!=='none'){
-					$.isFunction( options.onSlideLeave ) && options.onSlideLeave.call( this, anchorLink, (sectionIndex + 1), prevSlideIndex, xMovement);
+					$.isFunction( options.onSlideLeave ) && options.onSlideLeave.call( this, anchorLink, (sectionIndex + 1), prevSlideIndex, xMovement, slideIndex );
 				}
 			}
 
